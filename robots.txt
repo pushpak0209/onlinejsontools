@@ -1,4 +1,4 @@
-# robots.txt generated at http://codebeautify.org
+# robots.txt generated at http://onlinejsontools.org
 User-agent: *
 Allow: /pagead/show_ads.js
 Allow: /pagead/js/adsbygoogle.js
