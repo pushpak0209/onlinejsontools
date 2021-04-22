@@ -1,0 +1,7 @@
+# robots.txt generated at http://codebeautify.org
+User-agent: *
+Allow: /pagead/show_ads.js
+Allow: /pagead/js/adsbygoogle.js
+
+Disallow: 
+Sitemap: https://onlinejsontools.org/
