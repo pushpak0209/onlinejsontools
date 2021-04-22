@@ -1,9 +1,390 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+<head>
+<meta http-equiv="content-language" content="en-US">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>JSON To BSON, BSON To JSON, XML, YAML, CSV, TSV, Base64, Beautify: Online JSON Tools</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="JSON Validator, convert JSON to XML, JSON to CSV, JSON to YAML, JSON to BSON, JSON to TSV, Base64, BSON to JSON Converter, BSON to JSON python" />
+<meta name="author" content="Peter Parker" />
+<meta name="Keywords" content="online json Tool,json beautifier, json beautify, json validator, jsonlint, JSON Checker, json minify, json to string, json formatter, json parser, json convert, Convert JSON To XML, YAML, CSV, BASE64, TSV, PlainText, URL-Encode, URL-decode, BSON, json python, BSON to JSON python,BSON to JSON Converter, JSON to BSON online converter" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" type="5354be0c25f6fbc7c66b48eb-text/javascript">   </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sora">
+  <link rel = "stylesheet" type = "text/css" href = "assets/css/main.css" > 
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon_io1/favicon1.ico"/>
+  <script type = 'text/javascript' src = "assets/javascript/jsonOperation.js"></script>
+    <script type = 'text/javascript' src = "assets/javascript/objtree-vkbeautify.js"></script>
+    <script type = 'text/javascript' src = "assets/javascript/converttocsv-underscore-lib.js"></script>
+     <script type = 'text/javascript' src = "assets/javascript/yaml.min.js"></script>
+       <script type = 'text/javascript' src = "assets/javascript/papaparse.min.js"></script>
+   <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/json2csv/4.5.2/json2csv.umd.js" type="5354be0c25f6fbc7c66b48eb-text/javascript"></script>
+  <script type = 'text/javascript' src = "assets/javascript/json2xml.js"></script>
+<script type = 'text/javascript' src = "assets/javascript/grapheme-splitter.min.js"></script>
+<script type = 'text/javascript' src = "assets/javascript/utf8.js"></script>
+<script type = 'text/javascript' src = "assets/javascript/bson-2.0.8.min.js"></script>
+<script type = 'text/javascript' src = "assets/javascript/bson.js"></script>
 
-<h1>JSON</h1>
+<meta property="og:title" content="JSON To BSON, XML, YAML, CSV, TSV, Base64, Beautify: Online JSON Tools" />
+<meta property="og:description" content="JSON Validator, convert JSON to XML, JSON to CSV, JSON to YAML, JSON to BSON, JSON to TSV, Base64, BSON to JSON Converter, BSON to JSON python" />
+<meta property="og:image" content="https://onlinejsontools.org/assets/img/onlinejsontools.png" />
+<meta property="og:url" content="https://www.onlinejsontools.org/" />
+<meta property="og:type" content="website" /> 
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@yamlonline" />
+<meta name="twitter:title" content="JSON To BSON, XML, YAML, CSV, TSV, Base64, Beautify: Online JSON Tools" />
+<meta name="twitter:description" content="JSON Validator, convert JSON to XML, JSON to CSV, JSON to YAML, JSON to BSON, JSON to TSV, Base64, BSON to JSON Converter, BSON to JSON python" />
+<meta name="twitter:image" content="https://onlinejsontools.org/assets/img/onlinejsontools.png" />
+<meta name="twitter:url" content="https://www.onlinejsontools.org/">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175053490-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175053490-1');
+</script>
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101278457);</script>
+<script async src="//static.getclicky.com/js"></script>
+
+</head>
+<body >
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark py-md-0">
+      <a class="navbar-brand" href="https://onlinejsontools.org/"><h1 style="font-size: 25px;margin-top:2.5%">{ JSON  Tools }</h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                 <span class="navbar-toggler-icon"></span>
+          </button>
+      <!--<div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://yamlonline.com/" target="_blank">YAML Converter</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://onlinexmltools.org/" target="_blank">XML Tools</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.onlinestringtools.org/" target="_blank">String Tools</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.onlinebase64tools.org/" target="_blank">Base64 Tools</a>
+              </li>
+              
+          </ul>
+      </div>-->
+</nav>
+
+<!-- <h1 class="text-center mt-0">Online Json Tools</h1> -->
+</br>
+<div class="container-fluid ">
+ 
+  
+  <div class="row no-gutters ">
+        
+          <div class="col-sm-5 col" >
+
+              <div class="card  border-dark border-bottom-0 text-white bg-dark rounded-0">
+                  <div class="card-body py-md-2">
+                                    <a href="#">
+                                                <i  class="fa fa-trash-o float-right " style="font-size:21px;margin-right:2%;color:red" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="clearInputAndOutput();"></i>
+                                            </a>
+                                           
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-copy float-right " style="font-size:21px;margin-right:2%;" data-placement="bottom" title="Copy" onclick="inputCopyContent()"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i  class="fa fa-check float-right " style="font-size:21px;margin-right:2%;color:orange" data-toggle="tooltip" data-placement="bottom" title="Validate" onclick="jsonValidator();"></i>
+                                            </a>
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-file-text-o float-right " style="font-size:21px;margin-right:2%;" data-placement="bottom" title="Sample" onclick="sampleFile()" ></i>
+                                            </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-2 col" >
+          </div>
+          <div class="col-sm-5" >
+                         <div class="card border-dark border-bottom-0 text-white bg-dark rounded-0 ">
+                                        <div class="card-body py-md-2">
+                                       
+                                           
+                                          
+									                        	<a href="#"  >
+                                                <i  class="fa fa-trash-o float-right " style="font-size:21px;margin-right:2%;color:red" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="clearOutput();"></i>
+                                            </a>
+                                            <a href="#" >
+                                                <i  class="fa fa-download float-right " style="font-size:21px;margin-right:2%;color:green" data-toggle="tooltip" data-placement="bottom" title="Download" onclick="downloadFile()"></i>
+                                            </a>
+                                          
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-copy float-right " style="font-size:21px;margin-right:2%;" data-placement="bottom" title="Copy" onclick="outputCopyContent();"></i>
+                                            </a>
+                                            
+                                        </div>
+                           </div> 
+          
+          </div>
+          <div class="col-sm-5" >
+                    
+                                        
+                    <div id="editor" class="border border-dark" OnPaste ="jsonBeautify()"></div>
+                    
+                    
+    
+          </div>
+          <div class="col-sm-2 center custom-padding"  >
+									<div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonValidator();" >JSON Validator</button>
+                                    </div>  
+                                    <br>
+			
+                                        <div class="btn-div">
+                                        
+                                                    <button type="button" class="btn btn-dark btn-xs btn-outline btn-block " onclick="jsonBeautify();" >JSON Beautify</button>
+                                    </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                    <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonMinify();" >JSON Minify/Compact</button>
+                                    </div>   
+                                    <br>
+                                                                 
+                                    <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToxml();" >JSON TO XML</button>
+                                    </div> 
+									                  <br>  
+                                        <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToyaml();" >JSON To YAML</button>
+                                    </div>
+									                  <br> 
+                                    
+                                    <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonTocsv();" >JSON To CSV</button>
+                                    </div> 
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToBSON();" >JSON TO BSON</button>
+									                  </div>
+                                    
+                                   
+                                    <br>
+                                     <div class="btn-div upload-btn-wrapper">
+                                    <script data-cfasync='false' type='text/javascript' src='//p413776.clksite.com/adServe/banners?tid=413776_811807_2&size=7'></script>
+                                    </div>
+                                    <br>
+                                    <div class="btn-div upload-btn-wrapper">
+                                         <button class="tn btn-dark btn-xs btn-outline btn-block">BSON To JSON(File Upload)</button>
+                                         <br>
+                                              <input type="file" onchange="bsonToJSON(event)">
+									                  </div>
+                                   
+                                    
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToPlainText();" >JSON To PlainText</button>
+									                  </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToBase64();" >JSON To BASE64</button>
+									                  </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToTsv();" >JSON To TSV</button>
+									                  </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="jsonToURLencode();" >URL-Encode JSON</button>
+                                    </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="urlDecodeJson();" >URL-Decode JSON</button>
+                                    </div>
+									 
 
 
+          </div>
+          <div class="col-sm-5" >
+                        <div id="editorOutput" class="border border-dark"></div>
+          </div>
+  </div>
+  <br>
+  <div class="text-center">
+      <script data-cfasync='false' type='text/javascript' src='//p413776.clksite.com/adServe/banners?tid=413776_811807_1'></script>
+  </div>
+  <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">What is JSON?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML.</h5>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON Validator?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Validate JSON  or JSON Check using JSON validator that check your json is valid or not.</h5>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">What is JSON Beautify?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON Minify To JSON Beautify or JSON Formatter.Enter your JSON input on the leftside input area after that click on Beautify button so, it will convert Beautify JSON on rightside box.</h5>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">What is JSON Minify?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON Beautify To JSON Minify.Enter your JSON Beautify Formatted input on the leftside input area after that click on Minify button so, it will Convert Minify JSON on rightside box.</h5>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to XML Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to XML. Enter your JSON input on the leftside input area after that click on JSON To XML button so, it will be convert your JSON to XML.</h5>
+              
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to YAML Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to YAML. Enter your JSON input on the leftside input area after that click on JSON To YAML button so, it will be convert your JSON to YAML.</h5>
+              
+            </div>
+          </div>
+          <br>
+
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to CSV Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to CSV. Enter your JSON input on the leftside input area after that click on JSON To CSV button so, it will be convert your JSON to CSV.</h5>
+            
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to BSON Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to BSON. Enter your JSON input on the leftside input area after that click on JSON To BSON button so, it will be convert your JSON to BSON as a fle and download it automatically.</h5>
+            
+            </div>
+          </div>
+          
+          <br>
+         
+        <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to TSV Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to TSV. Enter your JSON input on the leftside input area after that click on JSON To TSV button so, it will be convert your JSON to TSV.</h5>
+            
+            </div>
+          </div>
+        <br>
+        <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to PlainText Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to PlainText. Enter your JSON input on the leftside input area after that click on JSON To PlainText button so, it will be convert your JSON to Plaintext as a String.</h5>
+            
+            </div>
+          </div>
+        <br>
+        <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">JSON to BASE64 Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to Base64. Enter your JSON input on the leftside input area after that click on JSON To BASE64 button so, it will be convert your JSON to Base64.</h5>
+            
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">BSON to JSON Converter?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert BSON to JSON. Click on BSON To JSON Button and upload your BSON file, it will be convert your BSON to JSON as a JSON and you can see that on rightside output area.</h5>
+            
+            </div>
+          </div>
+          <br>
+        <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">URL-Encode JSON?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to URL-EnCode. Enter your JSON input on the leftside input area after that click on URL-Encode JSON button so, it will be convert your JSON to URL-Encode JSON.</h5>
+            
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <h2 class="card-header text-white bg-dark rounded-0">URL-Decode JSON?</h2>
+            <div class="card-body border border-dark">
+              <h5 class="card-title">Convert JSON to URL-Decode JSON. Enter your JSON input on the leftside input area after that click on URL-Decode JSON button so, it will be convert your JSON to URL-Decode JSON.</h5>
+            
+            </div>
+          </div>
+          <br>
+          <div class="justify-content-center align-items-center">
+          <script type="text/javascript" language="javascript">
+      var aax_size='728x90';
+      var aax_pubname = 'das3690-21';
+      var aax_src='302';
+    </script>
+    <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+    <script type='text/javascript' src='//p413776.clksite.com/adServe/banners?tid=413776_811807_0&type=floating_banner&size=6&side=right&position=bottom'></script>
+    </div>
+    </br>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-md-0">
+  <ul class="navbar-nav mx-auto justify-content-center">
+    <li class="nav-item ">
+      <a class="nav-link"   href="index.html">&copy; onlinejsontools.org</a>
+    </li>
+  </ul>
+</nav>
+<textarea id="clipboard-content" style="display:none"></textarea>
+<script type = 'text/javascript' src = "assets/javascript/ace/src-noconflict/ace.js"></script>
+<script>
+    var editor = ace.edit("editor",{
+        wrap: true,
+        autoScrollEditorIntoView: true
+    });
+    editor.setTheme("ace/theme/dawn");
+    editor.getSession().setMode("ace/mode/text");
+    editor.setFontSize("22px");
+
+    var editorOutput = ace.edit("editorOutput",{
+        wrap: true,
+        autoScrollEditorIntoView: true
+    });
+    editorOutput.setTheme("ace/theme/dawn");
+    editorOutput.getSession().setMode("ace/mode/json");
+    editorOutput.setFontSize("22px");
+</script>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "YAML ONLINE",
+ "url" : "https://www.onlinejsontools.org/",
+ "sameAs" : [
+   "https://twitter.com/yamlonline"
+   ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Example Street",
+    "addressRegion": "CA",
+    "postalCode": "94040",
+    "addressCountry": "US"
+  }
+}
+</script>
 </body>
 </html>

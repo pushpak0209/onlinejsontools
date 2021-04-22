@@ -1,0 +1,38 @@
+#editor { 
+     
+    height: calc(100vh - -270px);
+}
+#editorOutput {
+
+    height: calc(100vh - -270px);
+}
+.center {
+    text-align: center;
+}
+
+.no-gutters>.col, .gutters>[class*=col-]  {
+    padding-right: 0 ;
+    padding-left: 0;
+}
+
+.no-gutters .custom-padding {
+    padding: 0 8px;
+}
+
+body {
+  
+    font-size: 20px;
+  }
+
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
